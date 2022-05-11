@@ -29,8 +29,8 @@ filename = '8.in' if len(sys.argv) < 2 else sys.argv[1]
 with open(filename) as f:
     l = f.read().splitlines()
 
-key = l[1]
 charset = [x for x in l[0]]
+key = l[1]
 msg = l[2]
 decoded = decode(key, charset, msg)
 print(decoded)
