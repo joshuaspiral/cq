@@ -10,6 +10,3 @@ for i in range(len(l)-1):
     totalDist+=math.trunc(dist)
 
 print(totalDist)
-
-
-
